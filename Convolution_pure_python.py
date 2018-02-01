@@ -1,7 +1,7 @@
 import struct
 import numpy as np
 import sys
-
+from im2col import im2col_indices
 
 X =  np.zeros((7,7,3))
 X[:,:,0] = [[0,0,0,0,0,0,0],
@@ -88,4 +88,3 @@ V1 = CONV(X, W1, b1, stride=1, layers=layers)
 
 print('Volume', V1.shape)
 
-#print('second layer', V2.shape)
