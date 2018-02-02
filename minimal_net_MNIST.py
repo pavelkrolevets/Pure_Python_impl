@@ -1,8 +1,11 @@
 """
+Pure Python feed forward multi layer Neural Network.
+
 Based on Stanford CS class CS231n: Convolutional Neural Networks for Visual Recognition.
 by Andrej Karpathy, Justin Johnson
 
 Further developed by Pavel Krolevets @ Shanghai Jiao Tong University. e-mail: pavelkrolevets@sjtu.edu.cn
+
 
 """
 # A bit of setup
